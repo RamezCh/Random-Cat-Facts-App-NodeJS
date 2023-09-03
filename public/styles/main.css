@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1f1f1f;
+    font-family: Arial, sans-serif;
+    color: #ddd;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    background-color: #2f2f2f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.catImage {
+    max-width: 100%;
+    width: auto;
+    max-height: 70vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.factContainer {
+    margin-top: 20px;
+}
+
+.fact {
+    font-size: 18px;
+}
